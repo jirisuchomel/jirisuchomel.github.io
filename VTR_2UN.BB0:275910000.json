@@ -1,0 +1,88 @@
+{
+	"list": [{
+		"vId": 1,
+		"var": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}]
+	}, {
+		"vId": 2,
+		"var": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}]
+	}, {
+		"vId": 3,
+		"var": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}]
+	}, {
+		"vId": 4,
+		"var": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 162,
+			"kcKod": "VD",
+			"popisc": "VoBB DSL",
+			"resources": []
+		}]
+	}, {
+		"vId": 5,
+		"var": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 162,
+			"kcKod": "VD",
+			"popisc": "VoBB DSL",
+			"resources": []
+		}]
+	}]
+}
