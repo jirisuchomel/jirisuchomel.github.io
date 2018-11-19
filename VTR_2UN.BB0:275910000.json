@@ -1,7 +1,7 @@
 {
 	"list": [{
-		"vId": 1,
-		"var": [{
+		"title": 1,
+		"data": [{
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
@@ -13,8 +13,8 @@
 			"resources": []
 		}]
 	}, {
-		"vId": 2,
-		"var": [{
+		"title": 2,
+		"data": [{
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
@@ -26,8 +26,8 @@
 			"resources": []
 		}]
 	}, {
-		"vId": 3,
-		"var": [{
+		"title": 3,
+		"data": [{
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
@@ -44,8 +44,8 @@
 			"resources": []
 		}]
 	}, {
-		"vId": 4,
-		"var": [{
+		"title": 4,
+		"data": [{
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
@@ -62,8 +62,8 @@
 			"resources": []
 		}]
 	}, {
-		"vId": 5,
-		"var": [{
+		"title": 5,
+		"data": [{
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
