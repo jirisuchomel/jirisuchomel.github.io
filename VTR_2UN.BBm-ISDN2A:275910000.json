@@ -1,0 +1,113 @@
+{
+	"list": [{
+		"title": 1,
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 161,
+			"kcKod": "IM",
+			"popisc": "MSAN ISDN2A",
+			"resources": []
+		}]
+	}, {
+		"title": 2,
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 161,
+			"kcKod": "IM",
+			"popisc": "MSAN ISDN2A",
+			"resources": []
+		}]
+	}, {
+		"title": 3,
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 161,
+			"kcKod": "IM",
+			"popisc": "MSAN ISDN2A",
+			"resources": []
+		}]
+	}, {
+		"title": 4,
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 162,
+			"kcKod": "VD",
+			"popisc": "VoBB DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 161,
+			"kcKod": "IM",
+			"popisc": "MSAN ISDN2A",
+			"resources": []
+		}]
+	}, {
+		"title": 5,
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 143,
+			"kcKod": "MD",
+			"popisc": "Multimedia DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 162,
+			"kcKod": "VD",
+			"popisc": "VoBB DSL",
+			"resources": []
+		}, {
+			"idcKomponenty": 161,
+			"kcKod": "IM",
+			"popisc": "MSAN ISDN2A",
+			"resources": []
+		}]
+	}]
+}
