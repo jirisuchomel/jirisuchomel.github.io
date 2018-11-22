@@ -8,5 +8,33 @@
 	"idcSluzby": "275910000",
 	"popisSl": "Service Point"
     },
-  ]	  
+    {
+	"kodVtr": "2UN.BBx-PSTN:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN:Service Point",
+	"idTr": "2UN.BBx",
+	"idcSluzby": "275910000",
+	"popisSl": "Service Point"
+    },
+    {
+	"kodVtr": "2UN.BBx-ISDN2A:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s ISDN2A:Service Point",
+	"idTr": "2UN.BBx",
+	"idcSluzby": "275910000",
+	"popisSl": "Service Point"
+    },
+    {
+	"kodVtr": "2UN.BBm-PSTN:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN MSAN:Service Point",
+	"idTr": "2UN.BBm",
+	"idcSluzby": "275910000",
+	"popisSl": "Service Point"
+    },
+    {
+	"kodVtr": "2UN.BBm-ISDN2A:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s ISDN2A MSAN:Service Point",
+	"idTr": "2UN.BBm",
+	"idcSluzby": "275910000",
+	"popisSl": "Service Point"
+    }
+  ]
 }
