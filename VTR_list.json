@@ -1,1 +1,17 @@
-...
+{
+	"list": 
+  [
+    {
+		  "kodVtr": "",
+		"data": [{
+			"idcKomponenty": 140,
+			"kcKod": "P",
+			"popisc": "Přístup",
+			"resources": []
+		}, {
+			"idcKomponenty": 141,
+			"kcKod": "ID",
+			"popisc": "Internet DSL",
+			"resources": []
+		}]
+	}
