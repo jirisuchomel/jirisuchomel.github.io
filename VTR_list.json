@@ -1,17 +1,12 @@
 {
-	"list": 
+  "list": 
   [
     {
-		  "kodVtr": "",
-		"data": [{
-			"idcKomponenty": 140,
-			"kcKod": "P",
-			"popisc": "Přístup",
-			"resources": []
-		}, {
-			"idcKomponenty": 141,
-			"kcKod": "ID",
-			"popisc": "Internet DSL",
-			"resources": []
-		}]
-	}
+	"kodVtr": "2UN.BB0:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL - BB bez PSTN:Service Point",
+	"idTr": "2UN.BB0",
+	"idcSluzby": "275910000",
+	"popisSl": "Service Point"
+    },
+  ]	  
+}
