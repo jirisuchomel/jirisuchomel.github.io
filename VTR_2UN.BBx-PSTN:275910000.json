@@ -5,17 +5,41 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "RE-LSSL",
+				"nazevRes": "Relace LSSL",
+				"nazevNis": "RTS"
+			}, {
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 147,
 			"kcKod": "H",
 			"popisc": "Hlas PSTN",
-			"resources": []
+			"resources": [{
+				"kodRes": "TC-PSTN",
+				"nazevRes": "TC PSTN",
+				"nazevNis": "IPAM_NM"
+			}, {
+				"kodRes": "TR-PSTN",
+				"nazevRes": "PSTNTrail",
+				"nazevNis": "NIMS"
+			}]
 		}]
 	}, {
 		"title": 2,
@@ -23,17 +47,41 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "RE-LSSL",
+				"nazevRes": "Relace LSSL",
+				"nazevNis": "RTS"
+			}, {
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 143,
 			"kcKod": "MD",
 			"popisc": "Multimedia DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-MM",
+				"nazevRes": "DS Multimedia",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 147,
 			"kcKod": "H",
 			"popisc": "Hlas PSTN",
-			"resources": []
+			"resources": [{
+				"kodRes": "TC-PSTN",
+				"nazevRes": "TC PSTN",
+				"nazevNis": "IPAM_NM"
+			}, {
+				"kodRes": "TR-PSTN",
+				"nazevRes": "PSTNTrail",
+				"nazevNis": "NIMS"
+			}]
 		}]
 	}, {
 		"title": 3,
@@ -41,22 +89,50 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "RE-LSSL",
+				"nazevRes": "Relace LSSL",
+				"nazevNis": "RTS"
+			}, {
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 143,
 			"kcKod": "MD",
 			"popisc": "Multimedia DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-MM",
+				"nazevRes": "DS Multimedia",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 147,
 			"kcKod": "H",
 			"popisc": "Hlas PSTN",
-			"resources": []
+			"resources": [{
+				"kodRes": "TC-PSTN",
+				"nazevRes": "TC PSTN",
+				"nazevNis": "IPAM_NM"
+			}, {
+				"kodRes": "TR-PSTN",
+				"nazevRes": "PSTNTrail",
+				"nazevNis": "NIMS"
+			}]
 		}]
 	}]
 }
