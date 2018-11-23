@@ -5,12 +5,24 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}]
 	}, {
 		"title": 2,
@@ -18,12 +30,24 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 143,
 			"kcKod": "MD",
 			"popisc": "Multimedia DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-MM",
+				"nazevRes": "DS Multimedia",
+				"nazevNis": "RTS"
+			}]
 		}]
 	}, {
 		"title": 3,
@@ -31,17 +55,33 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 143,
 			"kcKod": "MD",
 			"popisc": "Multimedia DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-MM",
+				"nazevRes": "DS Multimedia",
+				"nazevNis": "RTS"
+			}]
 		}]
 	}, {
 		"title": 4,
@@ -49,17 +89,33 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 162,
 			"kcKod": "VD",
 			"popisc": "VoBB DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-VoBB",
+				"nazevRes": "DS VoBB",
+				"nazevNis": "RTS"
+			}]
 		}]
 	}, {
 		"title": 5,
@@ -67,22 +123,42 @@
 			"idcKomponenty": 140,
 			"kcKod": "P",
 			"popisc": "Přístup",
-			"resources": []
+			"resources": [{
+				"kodRes": "TR-ADSL",
+				"nazevRes": "ADSLTrail",
+				"nazevNis": "NIMS"
+			}, {
+				"kodRes": "RE-LSADSL",
+				"nazevRes": "Relace LSADSL",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 141,
 			"kcKod": "ID",
 			"popisc": "Internet DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-INT",
+				"nazevRes": "DS Internet",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 143,
 			"kcKod": "MD",
 			"popisc": "Multimedia DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-MM",
+				"nazevRes": "DS Multimedia",
+				"nazevNis": "RTS"
+			}]
 		}, {
 			"idcKomponenty": 162,
 			"kcKod": "VD",
 			"popisc": "VoBB DSL",
-			"resources": []
+			"resources": [{
+				"kodRes": "DS-VoBB",
+				"nazevRes": "DS VoBB",
+				"nazevNis": "RTS"
+			}]
 		}]
 	}]
 }
