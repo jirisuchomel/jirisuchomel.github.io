@@ -1,0 +1,36 @@
+{
+	"list": [{
+		"kodVOTr": "2UN.BB0:275910000.P=DSL#",
+		"nazevVOTr": "Změna DSL bez HS (se změnou portu)"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#H-DSL=",
+		"nazevVOTr": "Odebrání HS PSTN bez změny DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#H-DSL#",
+		"nazevVOTr": "Odebrání HS PSTN se změnou DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#I-DSL=",
+		"nazevVOTr": "Odebrání HS ISDN2A bez změny DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#I-DSL#",
+		"nazevVOTr": "Odebrání HS ISDN2A se změnou DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#HM-DSL=",
+		"nazevVOTr": "Odebrání HS MSAN PSTN bez změny DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#IM-DSL=",
+		"nazevVOTr": "Odebrání HS MSAN ISDN2A bez změny DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#HM-DSL#",
+		"nazevVOTr": "Odebrání HS MSAN PSTN se změnou DSL"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P+DSL+",
+		"nazevVOTr": "Zřízení DSL bez HS"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P-DSL-",
+		"nazevVOTr": "Zrušení DSL bez HS"
+	}, {
+		"kodVOTr": "2UN.BB0:275910000.P#IM-DSL#",
+		"nazevVOTr": "Odebrání HS MSAN PSTN se změnou DSL"
+	}]
+}
