@@ -1,7 +1,9 @@
 {
 	"list": [{
-		"title": 1,
-		"mask": "P=,ID#,MD#,H=",
+		"title": {
+			"varId": 1,
+			"mask": "P=,ID#,MD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -24,8 +26,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 2,
-		"mask": "P=,ID+,MD#,H=",
+		"title": {
+			"varId": 2,
+			"mask": "P=,ID+,MD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -48,8 +52,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 3,
-		"mask": "P=,MD#,H=",
+		"title": {
+			"varId": 3,
+			"mask": "P=,MD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -67,8 +73,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 4,
-		"mask": "P=,ID-,MD+,H=",
+		"title": {
+			"varId": 4,
+			"mask": "P=,ID-,MD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -91,8 +99,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 5,
-		"mask": "P=,ID#,H=",
+		"title": {
+			"varId": 5,
+			"mask": "P=,ID#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -110,8 +120,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 6,
-		"mask": "P=,ID#,MD+,H=",
+		"title": {
+			"varId": 6,
+			"mask": "P=,ID#,MD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -134,8 +146,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 7,
-		"mask": "P=,ID+,MD-,H=",
+		"title": {
+			"varId": 7,
+			"mask": "P=,ID+,MD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -158,8 +172,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 8,
-		"mask": "P=,ID=,MD+,H=",
+		"title": {
+			"varId": 8,
+			"mask": "P=,ID=,MD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -182,8 +198,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 9,
-		"mask": "P=,ID=,MD#,H=",
+		"title": {
+			"varId": 9,
+			"mask": "P=,ID=,MD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -206,8 +224,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 10,
-		"mask": "P=,ID#,MD=,H=",
+		"title": {
+			"varId": 10,
+			"mask": "P=,ID#,MD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -230,8 +250,88 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 11,
-		"mask": "P=,ID+,MD=,H=",
+		"title": {
+			"varId": 11,
+			"mask": "P=,ID+,MD=,H="
+		},
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": {
+			"varId": 12,
+			"mask": "P=,ID=,MD-,H="
+		},
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": {
+			"varId": 13,
+			"mask": "P=,ID#,MD-,H="
+		},
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": {
+			"varId": 14,
+			"mask": "P=,ID-,MD=,H="
+		},
 		"data": [{
 				"idcKomponenty": 140,
 				"kodKompOp": "P=",
@@ -240,9 +340,9 @@
 			},
 			{
 				"idcKomponenty": 141,
-				"kodKompOp": "ID+",
+				"kodKompOp": "ID-",
 				"nazevKomp": "Internet DSL",
-				"operKomp": "CREATE"
+				"operKomp": "DELETE"
 			}, {
 				"idcKomponenty": 143,
 				"kodKompOp": "MD=",
@@ -256,80 +356,10 @@
 			}
 		]
 	}, {
-		"title": 12,
-		"mask": "P=,ID=,MD-,H=",
-		"data": [{
-			"idcKomponenty": 140,
-			"kodKompOp": "P=",
-			"nazevKomp": "Přístup",
-			"operKomp": "NOCHANGE"
-		}, {
-			"idcKomponenty": 141,
-			"kodKompOp": "ID=",
-			"nazevKomp": "Internet DSL",
-			"operKomp": "NOCHANGE"
-		}, {
-			"idcKomponenty": 143,
-			"kodKompOp": "MD-",
-			"nazevKomp": "Multimedia DSL",
-			"operKomp": "DELETE"
-		}, {
-			"idcKomponenty": 147,
-			"kodKompOp": "H=",
-			"nazevKomp": "Hlas PSTN",
-			"operKomp": "NOCHANGE"
-		}]
-	}, {
-		"title": 13,
-		"mask": "P=,ID#,MD-,H=",
-		"data": [{
-			"idcKomponenty": 140,
-			"kodKompOp": "P=",
-			"nazevKomp": "Přístup",
-			"operKomp": "NOCHANGE"
-		}, {
-			"idcKomponenty": 141,
-			"kodKompOp": "ID#",
-			"nazevKomp": "Internet DSL",
-			"operKomp": "CHANGE"
-		}, {
-			"idcKomponenty": 143,
-			"kodKompOp": "MD-",
-			"nazevKomp": "Multimedia DSL",
-			"operKomp": "DELETE"
-		}, {
-			"idcKomponenty": 147,
-			"kodKompOp": "H=",
-			"nazevKomp": "Hlas PSTN",
-			"operKomp": "NOCHANGE"
-		}]
-	}, {
-		"title": 14,
-		"mask": "P=,ID-,MD=,H=",
-		"data": [{
-			"idcKomponenty": 140,
-			"kodKompOp": "P=",
-			"nazevKomp": "Přístup",
-			"operKomp": "NOCHANGE"
-		}, {
-			"idcKomponenty": 141,
-			"kodKompOp": "ID-",
-			"nazevKomp": "Internet DSL",
-			"operKomp": "DELETE"
-		}, {
-			"idcKomponenty": 143,
-			"kodKompOp": "MD=",
-			"nazevKomp": "Multimedia DSL",
-			"operKomp": "NOCHANGE"
-		}, {
-			"idcKomponenty": 147,
-			"kodKompOp": "H=",
-			"nazevKomp": "Hlas PSTN",
-			"operKomp": "NOCHANGE"
-		}]
-	}, {
-		"title": 15,
-		"mask": "P=,ID-,MD#,H=",
+		"title": {
+			"varId": 15,
+			"mask": "P=,ID-,MD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -352,8 +382,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 16,
-		"mask": "P=,ID=,MD#,VD=,H=",
+		"title": {
+			"varId": 16,
+			"mask": "P=,ID=,MD#,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -381,8 +413,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 17,
-		"mask": "P=,ID=,MD+,VD=,H=",
+		"title": {
+			"varId": 17,
+			"mask": "P=,ID=,MD+,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -410,8 +444,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 18,
-		"mask": "P=,ID=,MD-,VD=,H=",
+		"title": {
+			"varId": 18,
+			"mask": "P=,ID=,MD-,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -439,8 +475,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 19,
-		"mask": "P=,ID#,VD=,H=",
+		"title": {
+			"varId": 19,
+			"mask": "P=,ID#,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -463,8 +501,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 20,
-		"mask": "P=,ID#,MD=,VD=,H=",
+		"title": {
+			"varId": 20,
+			"mask": "P=,ID#,MD=,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -492,8 +532,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 21,
-		"mask": "P=,ID#,MD#,VD=,H=",
+		"title": {
+			"varId": 21,
+			"mask": "P=,ID#,MD#,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -521,8 +563,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 22,
-		"mask": "P=,ID#,MD+,VD=,H=",
+		"title": {
+			"varId": 22,
+			"mask": "P=,ID#,MD+,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -550,8 +594,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 23,
-		"mask": "P=,ID#,MD-,VD=,H=",
+		"title": {
+			"varId": 23,
+			"mask": "P=,ID#,MD-,VD=,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -579,8 +625,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 24,
-		"mask": "P=,ID=,VD#,H=",
+		"title": {
+			"varId": 24,
+			"mask": "P=,ID=,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -603,8 +651,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 25,
-		"mask": "P=,ID=,MD=,VD#,H=",
+		"title": {
+			"varId": 25,
+			"mask": "P=,ID=,MD=,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -632,8 +682,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 26,
-		"mask": "P=,ID=,MD#,VD#,H=",
+		"title": {
+			"varId": 26,
+			"mask": "P=,ID=,MD#,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -661,8 +713,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 27,
-		"mask": "P=,ID=,MD+,VD#,H=",
+		"title": {
+			"varId": 27,
+			"mask": "P=,ID=,MD+,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -690,39 +744,41 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 28,
-		"mask": "P=,ID=,MD-,VD#,H=",
+		"title": {
+			"varId": 28,
+			"mask": "P=,ID=,MD-,VD#,H="
+		},
 		"data": [{
-				"idcKomponenty": 140,
-				"kodKompOp": "P=",
-				"nazevKomp": "Přístup",
-				"operKomp": "NOCHANGE"
-			}, {
-				"idcKomponenty": 141,
-				"kodKompOp": "ID=",
-				"nazevKomp": "Internet DSL",
-				"operKomp": "NOCHANGE"
-			}, {
-				"idcKomponenty": 143,
-				"kodKompOp": "MD-",
-				"nazevKomp": "Multimedia DSL",
-				"operKomp": "DELETE"
-			},
-			{
-				"idcKomponenty": 162,
-				"kodKompOp": "VD#",
-				"nazevKomp": "VoBB DSL",
-				"operKomp": "CHANGE"
-			}, {
-				"idcKomponenty": 147,
-				"kodKompOp": "H=",
-				"nazevKomp": "Hlas PSTN",
-				"operKomp": "NOCHANGE"
-			}
-		]
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
 	}, {
-		"title": 29,
-		"mask": "P=,ID#,VD#,H=",
+		"title": {
+			"varId": 29,
+			"mask": "P=,ID#,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -745,8 +801,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 30,
-		"mask": "P=,ID#,MD=,VD#,H=",
+		"title": {
+			"varId": 30,
+			"mask": "P=,ID#,MD=,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -774,8 +832,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 31,
-		"mask": "P=,ID#,MD#,VD#,H=",
+		"title": {
+			"varId": 31,
+			"mask": "P=,ID#,MD#,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -803,8 +863,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 32,
-		"mask": "P=,ID#,MD+,VD#,H=",
+		"title": {
+			"varId": 32,
+			"mask": "P=,ID#,MD+,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -832,8 +894,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 33,
-		"mask": "P=,ID#,MD-,VD#,H=",
+		"title": {
+			"varId": 33,
+			"mask": "P=,ID#,MD-,VD#,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -861,8 +925,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 34,
-		"mask": "P=,ID=,VD+,H=",
+		"title": {
+			"varId": 34,
+			"mask": "P=,ID=,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -885,8 +951,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 35,
-		"mask": "P=,ID=,MD=,VD+,H=",
+		"title": {
+			"varId": 35,
+			"mask": "P=,ID=,MD=,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -914,8 +982,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 36,
-		"mask": "P=,ID=,MD#,VD+,H=",
+		"title": {
+			"varId": 36,
+			"mask": "P=,ID=,MD#,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -943,8 +1013,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 37,
-		"mask": "P=,ID=,MD+,VD+,H=",
+		"title": {
+			"varId": 37,
+			"mask": "P=,ID=,MD+,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -972,8 +1044,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 38,
-		"mask": "P=,ID=,MD-,VD+,H=",
+		"title": {
+			"varId": 38,
+			"mask": "P=,ID=,MD-,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1001,8 +1075,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 39,
-		"mask": "P=,ID#,VD+,H=",
+		"title": {
+			"varId": 39,
+			"mask": "P=,ID#,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1025,8 +1101,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 40,
-		"mask": "P=,ID#,MD=,VD+,H=",
+		"title": {
+			"varId": 40,
+			"mask": "P=,ID#,MD=,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1054,8 +1132,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 41,
-		"mask": "P=,ID#,MD#,VD+,H=",
+		"title": {
+			"varId": 41,
+			"mask": "P=,ID#,MD#,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1083,8 +1163,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 42,
-		"mask": "P=,ID#,MD+,VD+,H=",
+		"title": {
+			"varId": 42,
+			"mask": "P=,ID#,MD+,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1112,8 +1194,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 43,
-		"mask": "P=,ID#,MD-,VD+,H=",
+		"title": {
+			"varId": 43,
+			"mask": "P=,ID#,MD-,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1141,8 +1225,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 44,
-		"mask": "P=,ID+,MD=,VD+,H=",
+		"title": {
+			"varId": 44,
+			"mask": "P=,ID+,MD=,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1170,8 +1256,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 45,
-		"mask": "P=,ID+,MD#,VD+,H=",
+		"title": {
+			"varId": 45,
+			"mask": "P=,ID+,MD#,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1199,8 +1287,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 46,
-		"mask": "P=,ID+,MD-,VD+,H=",
+		"title": {
+			"varId": 46,
+			"mask": "P=,ID+,MD-,VD+,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1228,8 +1318,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 47,
-		"mask": "P=,ID=,VD-,H=",
+		"title": {
+			"varId": 47,
+			"mask": "P=,ID=,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1252,39 +1344,41 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 48,
-		"mask": "P=,ID=,MD=,VD-,H=",
+		"title": {
+			"varId": 48,
+			"mask": "P=,ID=,MD=,VD-,H="
+		},
 		"data": [{
-				"idcKomponenty": 140,
-				"kodKompOp": "P=",
-				"nazevKomp": "Přístup",
-				"operKomp": "NOCHANGE"
-			},
-			{
-				"idcKomponenty": 141,
-				"kodKompOp": "ID=",
-				"nazevKomp": "Internet DSL",
-				"operKomp": "NOCHANGE"
-			}, {
-				"idcKomponenty": 143,
-				"kodKompOp": "MD=",
-				"nazevKomp": "Multimedia DSL",
-				"operKomp": "NOCHANGE"
-			}, {
-				"idcKomponenty": 162,
-				"kodKompOp": "VD-",
-				"nazevKomp": "VoBB DSL",
-				"operKomp": "DELETE"
-			}, {
-				"idcKomponenty": 147,
-				"kodKompOp": "H=",
-				"nazevKomp": "Hlas PSTN",
-				"operKomp": "NOCHANGE"
-			}
-		]
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
 	}, {
-		"title": 49,
-		"mask": "P=,ID=,MD#,VD-,H=",
+		"title": {
+			"varId": 49,
+			"mask": "P=,ID=,MD#,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1312,8 +1406,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 50,
-		"mask": "P=,ID=,MD+,VD-,H=",
+		"title": {
+			"varId": 50,
+			"mask": "P=,ID=,MD+,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1341,8 +1437,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 51,
-		"mask": "P=,ID=,MD-,VD-,H=",
+		"title": {
+			"varId": 51,
+			"mask": "P=,ID=,MD-,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1370,8 +1468,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 52,
-		"mask": "P=,ID#,VD-,H=",
+		"title": {
+			"varId": 52,
+			"mask": "P=,ID#,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1394,8 +1494,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 53,
-		"mask": "P=,ID#,MD=,VD-,H=",
+		"title": {
+			"varId": 53,
+			"mask": "P=,ID#,MD=,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1423,8 +1525,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 54,
-		"mask": "P=,ID#,MD#,VD-,H=",
+		"title": {
+			"varId": 54,
+			"mask": "P=,ID#,MD#,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1452,8 +1556,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 55,
-		"mask": "P=,ID#,MD+,VD-,H=",
+		"title": {
+			"varId": 55,
+			"mask": "P=,ID#,MD+,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1481,8 +1587,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 56,
-		"mask": "P=,ID#,MD-,VD-,H=",
+		"title": {
+			"varId": 56,
+			"mask": "P=,ID#,MD-,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1510,8 +1618,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 57,
-		"mask": "P=,ID-,MD=,VD-,H=",
+		"title": {
+			"varId": 57,
+			"mask": "P=,ID-,MD=,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1539,8 +1649,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 58,
-		"mask": "P=,ID-,MD#,VD-,H=",
+		"title": {
+			"varId": 58,
+			"mask": "P=,ID-,MD#,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
@@ -1568,8 +1680,10 @@
 			"operKomp": "NOCHANGE"
 		}]
 	}, {
-		"title": 59,
-		"mask": "P=,ID-,MD+,VD-,H=",
+		"title": {
+			"varId": 59,
+			"mask": "P=,ID-,MD+,VD-,H="
+		},
 		"data": [{
 			"idcKomponenty": 140,
 			"kodKompOp": "P=",
