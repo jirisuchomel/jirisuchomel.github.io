@@ -1,0 +1,1600 @@
+{
+	"list": [{
+		"title": 1,
+		"mask": "P=,ID#,MD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 2,
+		"mask": "P=,ID+,MD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 3,
+		"mask": "P=,MD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 4,
+		"mask": "P=,ID-,MD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 5,
+		"mask": "P=,ID#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 6,
+		"mask": "P=,ID#,MD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 7,
+		"mask": "P=,ID+,MD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 8,
+		"mask": "P=,ID=,MD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 9,
+		"mask": "P=,ID=,MD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 10,
+		"mask": "P=,ID#,MD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 11,
+		"mask": "P=,ID+,MD=,H=",
+		"data": [{
+				"idcKomponenty": 140,
+				"kodKompOp": "P=",
+				"nazevKomp": "Přístup",
+				"operKomp": "NOCHANGE"
+			},
+			{
+				"idcKomponenty": 141,
+				"kodKompOp": "ID+",
+				"nazevKomp": "Internet DSL",
+				"operKomp": "CREATE"
+			}, {
+				"idcKomponenty": 143,
+				"kodKompOp": "MD=",
+				"nazevKomp": "Multimedia DSL",
+				"operKomp": "NOCHANGE"
+			}, {
+				"idcKomponenty": 147,
+				"kodKompOp": "H=",
+				"nazevKomp": "Hlas PSTN",
+				"operKomp": "NOCHANGE"
+			}
+		]
+	}, {
+		"title": 12,
+		"mask": "P=,ID=,MD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 13,
+		"mask": "P=,ID#,MD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 14,
+		"mask": "P=,ID-,MD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 15,
+		"mask": "P=,ID-,MD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 16,
+		"mask": "P=,ID=,MD#,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 17,
+		"mask": "P=,ID=,MD+,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 18,
+		"mask": "P=,ID=,MD-,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 19,
+		"mask": "P=,ID#,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 20,
+		"mask": "P=,ID#,MD=,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 21,
+		"mask": "P=,ID#,MD#,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 22,
+		"mask": "P=,ID#,MD+,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 23,
+		"mask": "P=,ID#,MD-,VD=,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD=",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 24,
+		"mask": "P=,ID=,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 25,
+		"mask": "P=,ID=,MD=,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 26,
+		"mask": "P=,ID=,MD#,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 27,
+		"mask": "P=,ID=,MD+,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 28,
+		"mask": "P=,ID=,MD-,VD#,H=",
+		"data": [{
+				"idcKomponenty": 140,
+				"kodKompOp": "P=",
+				"nazevKomp": "Přístup",
+				"operKomp": "NOCHANGE"
+			}, {
+				"idcKomponenty": 141,
+				"kodKompOp": "ID=",
+				"nazevKomp": "Internet DSL",
+				"operKomp": "NOCHANGE"
+			}, {
+				"idcKomponenty": 143,
+				"kodKompOp": "MD-",
+				"nazevKomp": "Multimedia DSL",
+				"operKomp": "DELETE"
+			},
+			{
+				"idcKomponenty": 162,
+				"kodKompOp": "VD#",
+				"nazevKomp": "VoBB DSL",
+				"operKomp": "CHANGE"
+			}, {
+				"idcKomponenty": 147,
+				"kodKompOp": "H=",
+				"nazevKomp": "Hlas PSTN",
+				"operKomp": "NOCHANGE"
+			}
+		]
+	}, {
+		"title": 29,
+		"mask": "P=,ID#,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 30,
+		"mask": "P=,ID#,MD=,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 31,
+		"mask": "P=,ID#,MD#,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 32,
+		"mask": "P=,ID#,MD+,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 33,
+		"mask": "P=,ID#,MD-,VD#,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD#",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 34,
+		"mask": "P=,ID=,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 35,
+		"mask": "P=,ID=,MD=,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 36,
+		"mask": "P=,ID=,MD#,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 37,
+		"mask": "P=,ID=,MD+,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 38,
+		"mask": "P=,ID=,MD-,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 39,
+		"mask": "P=,ID#,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 40,
+		"mask": "P=,ID#,MD=,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 41,
+		"mask": "P=,ID#,MD#,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 42,
+		"mask": "P=,ID#,MD+,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 43,
+		"mask": "P=,ID#,MD-,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 44,
+		"mask": "P=,ID+,MD=,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 45,
+		"mask": "P=,ID+,MD#,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 46,
+		"mask": "P=,ID+,MD-,VD+,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID+",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD+",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 47,
+		"mask": "P=,ID=,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 48,
+		"mask": "P=,ID=,MD=,VD-,H=",
+		"data": [{
+				"idcKomponenty": 140,
+				"kodKompOp": "P=",
+				"nazevKomp": "Přístup",
+				"operKomp": "NOCHANGE"
+			},
+			{
+				"idcKomponenty": 141,
+				"kodKompOp": "ID=",
+				"nazevKomp": "Internet DSL",
+				"operKomp": "NOCHANGE"
+			}, {
+				"idcKomponenty": 143,
+				"kodKompOp": "MD=",
+				"nazevKomp": "Multimedia DSL",
+				"operKomp": "NOCHANGE"
+			}, {
+				"idcKomponenty": 162,
+				"kodKompOp": "VD-",
+				"nazevKomp": "VoBB DSL",
+				"operKomp": "DELETE"
+			}, {
+				"idcKomponenty": 147,
+				"kodKompOp": "H=",
+				"nazevKomp": "Hlas PSTN",
+				"operKomp": "NOCHANGE"
+			}
+		]
+	}, {
+		"title": 49,
+		"mask": "P=,ID=,MD#,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 50,
+		"mask": "P=,ID=,MD+,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 51,
+		"mask": "P=,ID=,MD-,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID=",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 52,
+		"mask": "P=,ID#,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 53,
+		"mask": "P=,ID#,MD=,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 54,
+		"mask": "P=,ID#,MD#,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 55,
+		"mask": "P=,ID#,MD+,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 56,
+		"mask": "P=,ID#,MD-,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID#",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD-",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 57,
+		"mask": "P=,ID-,MD=,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD=",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 58,
+		"mask": "P=,ID-,MD#,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD#",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CHANGE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}, {
+		"title": 59,
+		"mask": "P=,ID-,MD+,VD-,H=",
+		"data": [{
+			"idcKomponenty": 140,
+			"kodKompOp": "P=",
+			"nazevKomp": "Přístup",
+			"operKomp": "NOCHANGE"
+		}, {
+			"idcKomponenty": 141,
+			"kodKompOp": "ID-",
+			"nazevKomp": "Internet DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 143,
+			"kodKompOp": "MD+",
+			"nazevKomp": "Multimedia DSL",
+			"operKomp": "CREATE"
+		}, {
+			"idcKomponenty": 162,
+			"kodKompOp": "VD-",
+			"nazevKomp": "VoBB DSL",
+			"operKomp": "DELETE"
+		}, {
+			"idcKomponenty": 147,
+			"kodKompOp": "H=",
+			"nazevKomp": "Hlas PSTN",
+			"operKomp": "NOCHANGE"
+		}]
+	}]
+}
