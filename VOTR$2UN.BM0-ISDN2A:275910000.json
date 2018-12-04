@@ -1,0 +1,149 @@
+{
+	"kodVtr": "2UN.BM0-ISDN2A:275910000",
+	"list": [{
+		"tr": "PSx",
+		"tech": "PSTN",
+		"mask": "P H",
+		"mzo": "P# H+ IM- DSL-"
+	}, {
+		"tr": "PSx",
+		"tech": "ISDN",
+		"mask": "P I",
+		"mzo": "P# I+ IM- DSL-"
+	}, {
+		"tr": "PSm",
+		"tech": "PSTN",
+		"mask": "P HM",
+		"mzo": "P# HM+ IM- DSL-"
+	}, {
+		"tr": "PSm",
+		"tech": "ISDN",
+		"mask": "P IM",
+		"mzo": "P# IM* DSL-"
+	}, {
+		"tr": "PSx SUALL",
+		"tech": "PSTN",
+		"mask": "P L H",
+		"mzo": "P# L+ H+ IM- DSL-"
+	}, {
+		"tr": "PSx SUALL",
+		"tech": "ISDN",
+		"mask": "P L I",
+		"mzo": "P# L+ I+ IM- DSL-"
+	}, {
+		"tr": "PSm SUALL",
+		"tech": "PSTN",
+		"mask": "P L HM",
+		"mzo": "P# L+ HM+ IM- DSL-"
+	}, {
+		"tr": "PSm SUALL",
+		"tech": "ISDN",
+		"mask": "P L IM",
+		"mzo": "P# L+ IM* DSL-"
+	}, {
+		"tr": "LU0",
+		"tech": "",
+		"mask": "P L",
+		"mzo": "P# L+ IM- DSL-"
+	}, {
+		"tr": "BN0",
+		"tech": "",
+		"mask": "P N DSL",
+		"mzo": "P# N+ IM- DSL*"
+	}, {
+		"tr": "BN0",
+		"tech": "VULA",
+		"mask": "P N ID",
+		"mzo": "P# N+ IM- DSL- ID+"
+	}, {
+		"tr": "BX0",
+		"tech": "PSTN",
+		"mask": "P H DSL",
+		"mzo": "P# H+ IM- DSL*"
+	}, {
+		"tr": "BX0",
+		"tech": "ISDN",
+		"mask": "P I DSL",
+		"mzo": "P# I+ IM- DSL*"
+	}, {
+		"tr": "BX1",
+		"tech": "PSTN",
+		"mask": "P H DSL T",
+		"mzo": "P# H+ IM- DSL* T+"
+	}, {
+		"tr": "BX1",
+		"tech": "ISDN",
+		"mask": "P I DSL T",
+		"mzo": "P# I+ IM- DSL* T+"
+	}, {
+		"tr": "DX1",
+		"tech": "PSTN",
+		"mask": "P H DSL T",
+		"mzo": "P# H+ IM- DSL* T+"
+	}, {
+		"tr": "DX1",
+		"tech": "ISDN",
+		"mask": "P I DSL T",
+		"mzo": "P# I+ IM- DSL* T+"
+	}, {
+		"tr": "BM0",
+		"tech": "PSTN",
+		"mask": "P HM DSL",
+		"mzo": "P= HM+ IM- DSL*"
+	}, {
+		"tr": "BM0",
+		"tech": "ISDN",
+		"mask": "P IM DSL",
+		"mzo": "P= IM* DSL*"
+	}, {
+		"tr": "BM1",
+		"tech": "PSTN",
+		"mask": "P HM DSL T",
+		"mzo": "P# HM+ IM- DSL* T+"
+	}, {
+		"tr": "BM1",
+		"tech": "ISDN",
+		"mask": "P IM DSL T",
+		"mzo": "P# IM* DSL* T+"
+	}, {
+		"tr": "DM1",
+		"tech": "PSTN",
+		"mask": "P HM DSL T",
+		"mzo": "P# HM+ IM- DSL* T+"
+	}, {
+		"tr": "DM1",
+		"tech": "ISDN",
+		"mask": "P IM DSL T",
+		"mzo": "P# IM* DSL* T+"
+	}, {
+		"tr": "BB0",
+		"tech": "",
+		"mask": "P DSL",
+		"mzo": "P# IM- DSL*"
+	}, {
+		"tr": "BB0",
+		"tech": "VULA",
+		"mask": "P ID",
+		"mzo": "P# IM- DSL- ID+"
+	}, {
+		"tr": "BB1",
+		"tech": "",
+		"mask": "P DSL T",
+		"mzo": "P# IM- DSL* T+"
+	}, {
+		"tr": "BB1",
+		"tech": "VULA",
+		"mask": "P ID T",
+		"mzo": "P# IM- DSL- ID+ T+"
+	}, {
+		"tr": "DB1",
+		"tech": "",
+		"mask": "P DSL T",
+		"mzo": "P# IM- DSL* T+"
+	}, {
+		"tr": "DB1",
+		"tech": "VULA",
+		"mask": "P ID T",
+		"mzo": "P# IM- DSL- ID+ T+"
+	}]
+}
