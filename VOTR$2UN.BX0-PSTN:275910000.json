@@ -4,47 +4,47 @@
 	"list": [{
 		"kodVtr": "1UU.PSx-PSTN:275910000",
 		"mask": "P H",
-		"mzo": "P# H* DSL-"
+		"mzo": "P# H* DSL+"
 	}, {
 		"kodVtr": "1UU.PSx-ISDN2A:275910000",
 		"mask": "P I",
-		"mzo": "P# H- I+ DSL-"
+		"mzo": "P# H+ I- DSL+"
 	}, {
 		"kodVtr": "1UU.PSm-PSTN:275910000",
 		"mask": "P HM",
-		"mzo": "P# H- HM+ DSL-"
+		"mzo": "P# H+ HM- DSL+"
 	}, {
 		"kodVtr": "1UU.PSm-ISDN2A:275910000",
 		"mask": "P IM",
-		"mzo": "P# H- IM+ DSL-"
+		"mzo": "P# H+ IM- DSL+"
 	}, {
 		"kodVtr": "1UU.PSx-PSTN.SUALL:275910000",
 		"mask": "P L H",
-		"mzo": "P# L+ H* DSL-"
+		"mzo": "P# L- H* DSL+"
 	}, {
 		"kodVtr": "1UU.PSx-ISDN2A.SUALL:275910000",
 		"mask": "P L I",
-		"mzo": "P# L+ H- I+ DSL-"
+		"mzo": "P# L- H+ I- DSL+"
 	}, {
 		"kodVtr": "1UU.PSm-PSTN.SUALL:275910000",
 		"mask": "P L HM",
-		"mzo": "P# L+ H- HM+ DSL-"
+		"mzo": "P# L- H+ HM- DSL+"
 	}, {
 		"kodVtr": "1UU.PSm-ISDN2A.SUALL:275910000",
 		"mask": "P L IM",
-		"mzo": "P# L+ H- IM+ DSL-"
+		"mzo": "P# L- H+ IM- DSL+"
 	}, {
 		"kodVtr": "1UU.LU0:275910000",
 		"mask": "P L",
-		"mzo": "P# L+ H- DSL-"
+		"mzo": "P# L- H+ DSL+"
 	}, {
 		"kodVtr": "2UN.BN0:275910000",
 		"mask": "P N DSL",
-		"mzo": "P# H- N+ DSL*"
+		"mzo": "P# H+ N- DSL*"
 	}, {
 		"kodVtr": "2UN.BN0-VULA:275910000",
 		"mask": "P N ID",
-		"mzo": "P# H- N+ DSL- ID+"
+		"mzo": "P# H+ N- DSL+ ID-"
 	}, {
 		"kodVtr": "2UN.BX0-PSTN:275910000",
 		"mask": "P H DSL",
@@ -52,70 +52,70 @@
 	}, {
 		"kodVtr": "2UN.BX0-ISDN2A:275910000",
 		"mask": "P I DSL",
-		"mzo": "P= H- I+ DSL*"
+		"mzo": "P= H+ I- DSL*"
 	}, {
 		"kodVtr": "2UN.BX1-PSTN:275910000",
 		"mask": "P H DSL T",
-		"mzo": "P# H* DSL* T+"
+		"mzo": "P# H* DSL* T-"
 	}, {
 		"kodVtr": "2UN.BX1-ISDN2A:275910000",
 		"mask": "P I DSL T",
-		"mzo": "P# H- I+ DSL* T+"
+		"mzo": "P# H+ I- DSL* T-"
 	}, {
 		"kodVtr": "2UN.DX1-PSTN:275910000",
 		"mask": "P H DSL T",
-		"mzo": "P# H* DSL* T+"
+		"mzo": "P# H* DSL* T-"
 	}, {
 		"kodVtr": "2UN.DX1-ISDN2A:275910000",
 		"mask": "P I DSL T",
-		"mzo": "P# H- I+ DSL* T+"
+		"mzo": "P# H+ I- DSL* T-"
 	}, {
 		"kodVtr": "2UN.BM0-PSTN:275910000",
 		"mask": "P HM DSL",
-		"mzo": "P# H- HM+ DSL*"
+		"mzo": "P# H+ HM- DSL*"
 	}, {
 		"kodVtr": "2UN.BM0-ISDN2A:275910000",
 		"mask": "P IM DSL",
-		"mzo": "P# H- IM+ DSL*"
+		"mzo": "P# H+ IM- DSL*"
 	}, {
 		"kodVtr": "2UN.BM1-PSTN:275910000",
 		"mask": "P HM DSL T",
-		"mzo": "P# H- HM+ DSL* T+"
+		"mzo": "P# H+ HM- DSL* T-"
 	}, {
 		"kodVtr": "2UN.BM1-ISDN2A:275910000",
 		"mask": "P IM DSL T",
-		"mzo": "P# H- IM+ DSL* T+"
+		"mzo": "P# H+ IM- DSL* T-"
 	}, {
 		"kodVtr": "2UN.DM1-PSTN:275910000",
 		"mask": "P HM DSL T",
-		"mzo": "P# H- HM+ DSL* T+"
+		"mzo": "P# H+ HM- DSL* T-"
 	}, {
 		"kodVtr": "2UN.DM1-ISDN2A:275910000",
 		"mask": "P IM DSL T",
-		"mzo": "P# H- IM+ DSL* T+"
+		"mzo": "P# H+ IM- DSL* T-"
 	}, {
 		"kodVtr": "2UN.BB0:275910000",
 		"mask": "P DSL",
-		"mzo": "P# H- DSL*"
+		"mzo": "P# H+ DSL*"
 	}, {
 		"kodVtr": "2UN.BB0-VULA:275910000",
 		"mask": "P ID",
-		"mzo": "P# H- DSL- ID+"
+		"mzo": "P# H+ DSL+ ID-"
 	}, {
 		"kodVtr": "2UN.BB1:275910000",
 		"mask": "P DSL T",
-		"mzo": "P# H- DSL* T+"
+		"mzo": "P# H+ DSL* T-"
 	}, {
 		"kodVtr": "2UN.BB1-VULA:275910000",
 		"mask": "P ID T",
-		"mzo": "P# H- DSL- ID+ T+"
+		"mzo": "P# H+ DSL+ ID- T-"
 	}, {
 		"kodVtr": "2UN.DB1:275910000",
 		"mask": "P DSL T",
-		"mzo": "P# H- DSL* T+"
+		"mzo": "P# H+ DSL* T-"
 	}, {
 		"kodVtr": "2UN.DB1-VULA:275910000",
 		"mask": "P ID T",
-		"mzo": "P# H- DSL- ID+ T+"
+		"mzo": "P# H+ DSL+ ID- T-"
 	}]
 }
