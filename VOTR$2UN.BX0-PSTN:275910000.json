@@ -2,6 +2,14 @@
 	"kodVtr": "2UN.BX0-PSTN:275910000",
 	"mask": "P H DSL",
 	"list": [{
+		"kodVtr": "",
+		"mask": "P H DSL",
+		"mzo": "P+ H+ DSL+"
+	}, {
+		"kodVtr": "2UN.BX0-PSTN:275910000",
+		"mask": "P H DSL",
+		"mzo": "P- H- DSL-"
+	}, {
 		"kodVtr": "1UU.PSx-PSTN:275910000",
 		"mask": "P H",
 		"mzo": "P# H* DSL+"
