@@ -1,149 +1,161 @@
 {
 	"kodVtr": "2UN.DM1-ISDN2A:275910000",
+	"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s ISDN2A MSAN:Service Point",
+	"mask": "P IM DSL T",
 	"list": [{
-		"tr": "PSx",
-		"tech": "PSTN",
+		"kodVtr": "",
+		"nazevVtr": "",
+		"mask": "",
+		"mzo": "P+ IM+ DSL+ T+"
+	}, {
+		"kodVtr": "2UN.DM1-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s ISDN2A MSAN:Service Point",
+		"mask": "P IM DSL T",
+		"mzo": "P- IM- DSL- T-"
+	}, {
+		"kodVtr": "1UU.PSx-PSTN:275910000",
+		"nazevVtr": "L1 UNI-UNI k PSTN:Service Point",
 		"mask": "P H",
-		"mzo": "P# H+ IM- DSL- T-"
+		"mzo": "P# H- IM+ DSL+ T+"
 	}, {
-		"tr": "PSx",
-		"tech": "ISDN",
+		"kodVtr": "1UU.PSx-ISDN2A:275910000",
+		"nazevVtr": "L1 UNI-UNI k ISDN2A:Service Point",
 		"mask": "P I",
-		"mzo": "P# I+ IM- DSL- T-"
+		"mzo": "P# I- IM+ DSL+ T+"
 	}, {
-		"tr": "PSm",
-		"tech": "PSTN",
+		"kodVtr": "1UU.PSm-PSTN:275910000",
+		"nazevVtr": "L1 UNI-NNI k PSTN MSAN:Service Point",
 		"mask": "P HM",
-		"mzo": "P# HM+ IM- DSL- T-"
+		"mzo": "P# HM- IM+ DSL+ T+"
 	}, {
-		"tr": "PSm",
-		"tech": "ISDN",
+		"kodVtr": "1UU.PSm-ISDN2A:275910000",
+		"nazevVtr": "L1 UNI-NNI k ISDN2A MSAN:Service Point",
 		"mask": "P IM",
-		"mzo": "P# IM* DSL- T-"
+		"mzo": "P# IM* DSL+ T+"
 	}, {
-		"tr": "PSx SUALL",
-		"tech": "PSTN",
+		"kodVtr": "1UU.PSx-PSTN.SUALL:275910000",
+		"nazevVtr": "L1 UNI-UNI k PSTN SUALL:Service Point",
 		"mask": "P L H",
-		"mzo": "P# L+ H+ IM- DSL- T-"
+		"mzo": "P# L- H- IM+ DSL+ T+"
 	}, {
-		"tr": "PSx SUALL",
-		"tech": "ISDN",
+		"kodVtr": "1UU.PSx-ISDN2A.SUALL:275910000",
+		"nazevVtr": "L1 UNI-UNI k ISDN2A SUALL:Service Point",
 		"mask": "P L I",
-		"mzo": "P# L+ I+ IM- DSL- T-"
+		"mzo": "P# L- I- IM+ DSL+ T+"
 	}, {
-		"tr": "PSm SUALL",
-		"tech": "PSTN",
+		"kodVtr": "1UU.PSm-PSTN.SUALL:275910000",
+		"nazevVtr": "L1 UNI-UNI k PSTN MSAN SUALL:Service Point",
 		"mask": "P L HM",
-		"mzo": "P# L+ HM+ IM- DSL- T-"
+		"mzo": "P# L- HM- IM+ DSL+ T+"
 	}, {
-		"tr": "PSm SUALL",
-		"tech": "ISDN",
+		"kodVtr": "1UU.PSm-ISDN2A.SUALL:275910000",
+		"nazevVtr": "L1 UNI-UNI k ISDN2A MSAN SUALL:Service Point",
 		"mask": "P L IM",
-		"mzo": "P# L+ IM* DSL- T-"
+		"mzo": "P# L- IM* DSL+ T+"
 	}, {
-		"tr": "LU0",
-		"tech": "",
+		"kodVtr": "1UU.LU0:275910000",
+		"nazevVtr": "1UU.LU0:Service Point",
 		"mask": "P L",
-		"mzo": "P# L+ IM- DSL- T-"
+		"mzo": "P# L- IM+ DSL+ T+"
 	}, {
-		"tr": "BN0",
-		"tech": "",
+		"kodVtr": "2UN.BN0:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN naked:Service Point",
 		"mask": "P N DSL",
-		"mzo": "P# N+ IM- DSL* T-"
+		"mzo": "P# N- IM+ DSL* T+"
 	}, {
-		"tr": "BN0",
-		"tech": "VULA",
+		"kodVtr": "2UN.BN0-VULA:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN naked / VULA:Service Point",
 		"mask": "P N ID",
-		"mzo": "P# N+ IM- DSL- ID+ T-"
+		"mzo": "P# N- IM+ DSL+ ID- T+"
 	}, {
-		"tr": "BX0",
-		"tech": "PSTN",
+		"kodVtr": "2UN.BX0-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN:Service Point",
 		"mask": "P H DSL",
-		"mzo": "P# H+ IM- DSL* T-"
+		"mzo": "P# H- IM+ DSL* T+"
 	}, {
-		"tr": "BX0",
-		"tech": "ISDN",
+		"kodVtr": "2UN.BX0-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s ISDN2A:Service Point",
 		"mask": "P I DSL",
-		"mzo": "P# I+ IM- DSL* T-"
+		"mzo": "P# I- IM+ DSL* T+"
 	}, {
-		"tr": "BX1",
-		"tech": "PSTN",
+		"kodVtr": "2UN.BX1-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB s PSTN:Service Point",
 		"mask": "P H DSL T",
-		"mzo": "P# H+ IM- DSL* T*"
+		"mzo": "P# H- IM+ DSL* T*"
 	}, {
-		"tr": "BX1",
-		"tech": "ISDN",
+		"kodVtr": "2UN.BX1-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB s ISDN2A:Service Point",
 		"mask": "P I DSL T",
-		"mzo": "P# I+ IM- DSL* T*"
+		"mzo": "P# I- IM+ DSL* T*"
 	}, {
-		"tr": "DX1",
-		"tech": "PSTN",
+		"kodVtr": "2UN.DX1-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s PSTN:Service Point",
 		"mask": "P H DSL T",
-		"mzo": "P# H+ IM- DSL* T*"
+		"mzo": "P# H- IM+ DSL* T*"
 	}, {
-		"tr": "DX1",
-		"tech": "ISDN",
+		"kodVtr": "2UN.DX1-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s ISDN2A:Service Point",
 		"mask": "P I DSL T",
-		"mzo": "P# I+ IM- DSL* T*"
+		"mzo": "P# I- IM+ DSL* T*"
 	}, {
-		"tr": "BM0",
-		"tech": "PSTN",
+		"kodVtr": "2UN.BM0-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s PSTN MSAN:Service Point",
 		"mask": "P HM DSL",
-		"mzo": "P# HM+ IM- DSL* T-"
+		"mzo": "P# HM- IM+ DSL* T+"
 	}, {
-		"tr": "BM0",
-		"tech": "ISDN",
+		"kodVtr": "2UN.BM0-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB s ISDN2A MSAN:Service Point",
 		"mask": "P IM DSL",
-		"mzo": "P# IM* DSL* T-"
+		"mzo": "P# IM* DSL* T+"
 	}, {
-		"tr": "BM1",
-		"tech": "PSTN",
+		"kodVtr": "2UN.BM1-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB s PSTN MSAN:Service Point",
 		"mask": "P HM DSL T",
-		"mzo": "P# HM+ IM- DSL* T*"
+		"mzo": "P# HM- IM+ DSL* T*"
 	}, {
-		"tr": "BM1",
-		"tech": "ISDN",
+		"kodVtr": "2UN.BM1-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB s ISDN2A MSAN:Service Point",
 		"mask": "P IM DSL T",
 		"mzo": "P# IM* DSL* T*"
 	}, {
-		"tr": "DM1",
-		"tech": "PSTN",
+		"kodVtr": "2UN.DM1-PSTN:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s PSTN MSAN:Service Point",
 		"mask": "P HM DSL T",
-		"mzo": "P= HM+ IM- DSL* T*"
+		"mzo": "P= HM- IM+ DSL* T*"
 	}, {
-		"tr": "DM1",
-		"tech": "ISDN",
+		"kodVtr": "2UN.DM1-ISDN2A:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB s ISDN2A MSAN:Service Point",
 		"mask": "P IM DSL T",
 		"mzo": "P= IM* DSL* T*"
 	}, {
-		"tr": "BB0",
-		"tech": "",
+		"kodVtr": "2UN.BB0:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB bez PSTN:Service Point",
 		"mask": "P DSL",
-		"mzo": "P# IM- DSL* T-"
+		"mzo": "P# IM+ DSL* T+"
 	}, {
-		"tr": "BB0",
-		"tech": "VULA",
+		"kodVtr": "2UN.BB0-VULA:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL - BB bez PSTN / VULA:Service Point",
 		"mask": "P ID",
-		"mzo": "P# IM- DSL- ID+ T-"
+		"mzo": "P# IM+ DSL+ ID- T+"
 	}, {
-		"tr": "BB1",
-		"tech": "",
+		"kodVtr": "2UN.BB1:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB bez PSTN:Service Point",
 		"mask": "P DSL T",
-		"mzo": "P# IM- DSL* T*"
+		"mzo": "P# IM+ DSL* T*"
 	}, {
-		"tr": "BB1",
-		"tech": "VULA",
+		"kodVtr": "2UN.BB1-VULA:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL (s terminátorem) - BB bez PSTN:Service Point",
 		"mask": "P ID T",
-		"mzo": "P# IM- DSL- ID+ T*"
+		"mzo": "P# IM+ DSL+ ID- T*"
 	}, {
-		"tr": "DB1",
-		"tech": "",
+		"kodVtr": "2UN.DB1:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB bez PSTN:Service Point",
 		"mask": "P DSL T",
-		"mzo": "P# IM- DSL* T*"
+		"mzo": "P# IM+ DSL* T*"
 	}, {
-		"tr": "DB1",
-		"tech": "VULA",
+		"kodVtr": "2UN.DB1-VULA:275910000",
+		"nazevVtr": "L2 - UNI-NNI přes xDSL vícepár - BB bez PSTN:Service Point",
 		"mask": "P ID T",
-		"mzo": "P# IM- DSL- ID+ T*"
+		"mzo": "P# IM+ DSL+ ID- T*"
 	}]
 }
