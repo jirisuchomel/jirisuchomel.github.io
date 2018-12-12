@@ -1,0 +1,15 @@
+{
+	"list": [{
+		"kodVotr": "",
+		"kodNiOp": "",
+		"metoda": "createProject",
+		"kodNi": "IPAM_NM",
+		"inOut": "IN"
+	}, {
+		"kodVotr": "",
+		"kodNiOp": "",
+		"metoda": "getProjectInfo",
+		"kodNi": "IPAM_NM",
+		"inOut": "IN"
+	}]
+}
