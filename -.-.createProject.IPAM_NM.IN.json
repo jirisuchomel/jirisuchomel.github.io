@@ -1,0 +1,393 @@
+{
+	"kodVotr": "",
+	"kodNiOp": "",
+	"metoda": "createProject",
+	"kodNi": "IPAM_NM",
+	"inOut": "IN",
+	"list": [{
+		"lev": 1,
+		"name": "CreateProjectRespRequest",
+		"desc": "Odpověď s daty při založení projektu",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "requestHeader",
+		"desc": "Hlavička zprávy",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "messageId",
+		"desc": "Id zprávy",
+		"example": "1520071845675",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "timestamp",
+		"desc": "Časové razítko zprávy",
+		"example": "2018-03-03T11:10:46.072+01:00",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "correlationId",
+		"desc": "Correlation Id",
+		"example": "RIM-335341925",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "trackingInfoList",
+		"desc": "Seznam trasovacích informací",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 4,
+		"name": "trackingInfo",
+		"desc": "Trasovací informace",
+		"example": "",
+		"cardinality": "1..20",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "meaning",
+		"desc": "Význam",
+		"example": "...",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "value",
+		"desc": "Hodnota",
+		"example": "...",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "requestId",
+		"desc": "Id požadavku",
+		"example": "335341925",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "atomicOperationList",
+		"desc": "Seznam atomických operací",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "atomicOperation",
+		"desc": "Atomická operace",
+		"example": "",
+		"cardinality": "0..n",
+		"type": "ELEMENT"
+	}, {
+		"lev": 4,
+		"name": "atomicOperationId",
+		"desc": "Id atomické operace",
+		"example": "335341299",
+		"cardinality": "0..n",
+		"type": "ELEMENT"
+	}, {
+		"lev": 4,
+		"name": "numberList",
+		"desc": "Seznam čísel",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "number",
+		"desc": "Informace o čísle",
+		"example": "",
+		"cardinality": "1..100",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "caseId",
+		"desc": "Identifikace služby",
+		"example": "10756421",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "exchangeId",
+		"desc": "Identifikace ústředny",
+		"example": "E2438",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "titanOperation",
+		"desc": "Operace Titan",
+		"example": "I",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "titanNumberType",
+		"desc": "Typ čísla Titan",
+		"example": "1",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "routingTarget",
+		"desc": "Směrování",
+		"example": "HODO",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "oldRoutingTarget",
+		"desc": "Původní směrování",
+		"example": "HODO",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "host",
+		"desc": "Identifikace hostu",
+		"example": "HODO",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "rsu",
+		"desc": "RSU",
+		"example": "VALT:RE:1",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "rkId",
+		"desc": "Hodnota rkId telefonního čísla",
+		"example": "61763651",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "multihoming",
+		"desc": "Příznak multihomingu",
+		"example": "A",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "mainNumber",
+		"desc": "Hlavní číslo",
+		"example": "519352386",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "networkType",
+		"desc": "Typ sítě",
+		"example": "F",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "numberFrom",
+		"desc": "Číslo od",
+		"example": "519352386",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "numberTo",
+		"desc": "Číslo do",
+		"example": "519352386",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "numberType",
+		"desc": "Typ čísla",
+		"example": "?",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "operatorId",
+		"desc": "Identifikace operátora",
+		"example": "202",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "orig1",
+		"desc": "orig1...",
+		"example": "5",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "orig1Collected",
+		"desc": "orig1Collected...",
+		"example": "2:5:6:1:4:7:10",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "orig2",
+		"desc": "orig2...",
+		"example": "1",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "orig2Aot",
+		"desc": "orig2Aot...",
+		"example": "14",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "state",
+		"desc": "Stav telefonního čísla",
+		"example": "PROVOZ",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "soId",
+		"desc": "Číslo objednávky tsId/orderId",
+		"example": "77128817",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "defaultHost",
+		"desc": "Identifikace původního hostu",
+		"example": "HODO",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "serviceType",
+		"desc": "Typ služby (PSTN,...)",
+		"example": "A",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 6,
+		"name": "projectMode",
+		"desc": "Projektový režim řádku",
+		"example": "true",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 4,
+		"name": "operationType",
+		"desc": "Typ atomické operace",
+		"example": "RESERVE_REQUEST",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 4,
+		"name": "result",
+		"desc": "Výsledek atomické operace",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "resultCode",
+		"desc": "Kód výsledku atomické operace",
+		"example": "OK",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "resultCodeNum",
+		"desc": "Hodnota výsledku atomické operace",
+		"example": "0",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 5,
+		"name": "resultText",
+		"desc": "Popis chyby atomické operace",
+		"example": "...",
+		"cardinality": "0..1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "numbers",
+		"desc": "Seznam čísel",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "number",
+		"desc": "Informace o čísle",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "projectInfo",
+		"desc": "Informace o projektu",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "ipamNmProjectId",
+		"desc": "Id projektu v IPAM-NM",
+		"example": "4716710540",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "created",
+		"desc": "Časové razítko vytvoření projektu",
+		"example": "2018-03-03T11:10:38.783+0100",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "locked",
+		"desc": "Příznak uzamčení projektu",
+		"example": "false",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "rimId",
+		"desc": "Přidělené rimId",
+		"example": "1307122",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "pkpId",
+		"desc": "Přidělené pkpId",
+		"example": "0036207571",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "reqCount",
+		"desc": "Počet pokusů o zpracování",
+		"example": "1",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 3,
+		"name": "okCount",
+		"desc": "Počet pokusů ...",
+		"example": "0",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}]
+}
