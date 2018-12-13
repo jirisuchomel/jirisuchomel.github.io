@@ -4,12 +4,19 @@
 		"kodNiOp": "",
 		"metoda": "createProject",
 		"kodNi": "IPAM_NM",
-		"inOut": "IN"
+		"inOut": "IN",
+		"type": "M"
 	}, {
 		"kodVotr": "",
 		"kodNiOp": "",
 		"metoda": "getProjectInfo",
 		"kodNi": "IPAM_NM",
-		"inOut": "IN"
+		"inOut": "IN",
+		"type": "M"
+	}, {
+		"kodVotr": "",
+		"kodKomp": "P",
+		"inOut": "IN",
+		"type": "K"
 	}]
 }
