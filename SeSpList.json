@@ -18,5 +18,10 @@
 		"kodKomp": "P",
 		"inOut": "IN",
 		"type": "K"
+	}, {
+		"kodVotr": "",
+		"kodKomp": "P",
+		"inOut": "OUT",
+		"type": "K"
 	}]
 }
