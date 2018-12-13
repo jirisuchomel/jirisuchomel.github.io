@@ -1,0 +1,377 @@
+{
+	"kodVotr": "",
+	"kodKomp": "P",
+	"inOut": "OUT",
+	"list": [{
+		"lev": 1,
+		"name": "idcSluzby",
+		"desc": "Identifikátor služby v SK ZIS",
+		"example": "275910000",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "serviceName",
+		"desc": "Název služby v SK ZIS",
+		"example": "Service Point",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "opKomponenty",
+		"desc": "Operace s komponentou",
+		"example": "CREATE",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "rkId",
+		"desc": "Identifikátor instance komponenty",
+		"example": "4249615",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "idcKomponenty",
+		"desc": "Identifikátor typu komponenty",
+		"example": "140",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "nazevKomponenty",
+		"desc": "Název typu komponenty",
+		"example": "Přístup",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "idTr",
+		"desc": "Identifikace technického řešení",
+		"example": "2UN.BB0",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "params",
+		"desc": "Vracené parametry",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "nims",
+		"desc": "Sekce pro data z NIMS",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "ppNims",
+		"desc": "Sekce pracovních příkazů NIMS",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 4,
+		"name": "stranaB",
+		"desc": "Sekce PP NIMS pro stranu B",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "okruh",
+		"desc": "Identifikace okruhu (desetice)",
+		"example": "BRUN/CTN/CETIN/CZE-BRUN/CTN/CETIN/CZE LSSL 100536",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "pp",
+		"desc": "Sekce jednoho PP",
+		"example": "",
+		"cardinality": "0..n",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "typ",
+		"desc": "Typ PP (HR|PPS|PRIV|KBS)",
+		"example": "HR",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "ropId",
+		"desc": "Místo provedení PP",
+		"example": "1541195",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "popis",
+		"desc": "Popis práce",
+		"example": "Na adrese:...Přidat:...",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "operace",
+		"desc": "Operace pro PP",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "akce",
+		"desc": "Druh akce (Přidat/Odebrat)",
+		"example": "Přidat",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "pozice1",
+		"desc": "Pozice na rozváděči",
+		"example": "2/503/4/73",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "port1",
+		"desc": "Port na zařízení",
+		"example": "Port DSLAM: NPAK2L-11/LT10-37",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "pozice2",
+		"desc": "Pozice na rozváděči",
+		"example": "2/503/4/74",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "port2",
+		"desc": "Port na zařízení",
+		"example": "Port DSLAM: NPAK2L-11/LT10-38",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "prubehNims",
+		"desc": "Sekce průběhy NIMS",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 4,
+		"name": "stranaB",
+		"desc": "Sekce průběhy NIMS pro stranu B",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "prubehy",
+		"desc": "Sekce seznamu průběhů",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "prubeh",
+		"desc": "Sekce jedné části průběhu",
+		"example": "",
+		"cardinality": "0..n",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "typ",
+		"desc": "Typ části průběhu (HR,SZ,BUDOVA,...)",
+		"example": "HR",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "ropId",
+		"desc": "Umístění části průběhu",
+		"example": "3360",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "nazev",
+		"desc": "Název části průběhu",
+		"example": "BRUN1HR(Bruntal) [Bruntál_HOST_MDF]",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "adresa",
+		"desc": "Adresa části průběhu",
+		"example": "Bruntál, Dr. E. Beneše 1873/61",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 7,
+		"name": "pozice",
+		"desc": "Pozice na rozváděči",
+		"example": "2/506/10/232",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "rts",
+		"desc": "Sekce pro data z RTS",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "ppRts",
+		"desc": "Sekce pracovních příkazů RTS",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 4,
+		"name": "stranaB",
+		"desc": "Sekce PP RTS/GPON pro stranu B",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "pp",
+		"desc": "Sekce jednoho PP",
+		"example": "",
+		"cardinality": "0..n",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "typ",
+		"desc": "Typ PP (HR|PPS|PRIV|KBS)",
+		"example": "KBS",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "ropId",
+		"desc": "Místo provedení PP",
+		"example": "1541195",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "popis",
+		"desc": "Popis práce",
+		"example": "Instalovat zásuvku:... Na adrese:...",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "relaceSeznam",
+		"desc": "Sekce seznamu relací",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 4,
+		"name": "relace",
+		"desc": "Sekce jedné relace",
+		"example": "",
+		"cardinality": "0..n",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "relaceId",
+		"desc": "Identifikace relace -  relId",
+		"example": "2160703842",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "rkId",
+		"desc": "Identifikace instance komponenty",
+		"example": "4248457",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "popis",
+		"desc": "Identifikace okruhu (desetice)",
+		"example": "BRUN/CTN/CETIN/CZE-BRUN/CTN/CETIN/CZE LSSL 100536",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "nims",
+		"desc": "Příznak, že je v NIMS",
+		"example": "A",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "kod",
+		"desc": "Kód projektové stránky (K|P|R)",
+		"example": "P",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 5,
+		"name": "technologieList",
+		"desc": "Seznam technologií relace",
+		"example": "",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 6,
+		"name": "technologie",
+		"desc": "Technologie relace",
+		"example": "ADSL",
+		"cardinality": "0..n",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "mdfId",
+		"desc": "Id hlavního rozváděče",
+		"example": "ZDAR:OBJ:4-HR-ZDAR1HR(Zdar)",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "splitterTyp",
+		"desc": "Typ splitteru",
+		"example": "SPLITT",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "socketName",
+		"desc": "Identifikace zásuvky",
+		"example": "M 100 783 816",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "host",
+		"desc": "Identifikace ústředny",
+		"example": "BRUN",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "equipNumber",
+		"desc": "Hlasový port",
+		"example": "07110672",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "v51",
+		"desc": "Příznak V51 pro ústřednu",
+		"example": "A",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}]
+}
