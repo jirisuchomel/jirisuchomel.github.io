@@ -1,0 +1,237 @@
+{
+	"kodVotr": "",
+	"kodKomp": "P",
+	"inOut": "IN",
+	"list": [{
+		"lev": 1,
+		"name": "idcSluzby",
+		"desc": "Identifikátor služby v SK ZIS",
+		"example": "275910000",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "serviceName",
+		"desc": "Název služby v SK ZIS",
+		"example": "Service Point",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "opKomponenty",
+		"desc": "Operace s komponentou",
+		"example": "CREATE",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "rkId",
+		"desc": "Identifikátor instance komponenty",
+		"example": "4249615",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "idcKomponenty",
+		"desc": "Identifikátor typu komponenty",
+		"example": "140",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "nazevKomponenty",
+		"desc": "Název typu komponenty",
+		"example": "Přístup",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "idTr",
+		"desc": "Identifikace technického řešení",
+		"example": "2UN.BB0",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 1,
+		"name": "params",
+		"desc": "Předávané parametry",
+		"example": "",
+		"cardinality": "1",
+		"type": "ELEMENT"
+	}, {
+		"lev": 2,
+		"name": "idEntity",
+		"desc": "Id entity",
+		"example": "-7180",
+		"cardinality": "1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "konstrukterZkr",
+		"desc": "Zkratka konstruktéra",
+		"example": "ADX",
+		"cardinality": "1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "konstrukterJmeno",
+		"desc": "Jméno konstruktéra",
+		"example": "Administrátor",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "zakaznik",
+		"desc": "Identifikace zákazníka",
+		"example": "",
+		"cardinality": "1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "jmeno",
+		"desc": "Jméno zákazníka",
+		"example": "Karel",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "prijmeni",
+		"desc": "Jméno zákazníka nebo název firmy",
+		"example": "Svoboda",
+		"cardinality": "1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "titul",
+		"desc": "Titul zákazníka",
+		"example": "Ing.",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "ulice",
+		"desc": "Ulice zákazníka",
+		"example": "Bojčenkova",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "cpop",
+		"desc": "Číslo popisné",
+		"example": "1096",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "cor",
+		"desc": "Číslo orientační",
+		"example": "12",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "obec",
+		"desc": "Název obce",
+		"example": "Praha",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "psc",
+		"desc": "PSČ",
+		"example": "19800",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "poznamka",
+		"desc": "Poznámka",
+		"example": "Poznámka",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "ropId",
+		"desc": "Umístění zákazníka",
+		"example": "157895",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "ico",
+		"desc": "IČO zákazníka",
+		"example": "4587965",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "zakcId",
+		"desc": "Identifikace zákazníka",
+		"example": "-1",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "cisloPodlazi",
+		"desc": "Číslo podlaží",
+		"example": "4",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 3,
+		"name": "cisloBytu",
+		"desc": "Číslo bytu",
+		"example": "14",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "socketName",
+		"desc": "Identifikace zásuvky",
+		"example": "M 100 783 816",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "dslamPoz",
+		"desc": "Požadovaný DSLAM pro HZP",
+		"example": "HK1L-52",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "ltKartaPoz",
+		"desc": "Požadovaná karta pro HZP",
+		"example": "5",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "ltPortPoz",
+		"desc": "Požadovaný port pro HZP",
+		"example": "23",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "mdfNimsId",
+		"desc": "Identifikace rozváděče v NIMS",
+		"example": "321681773",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "utlum",
+		"desc": "Ručně zadaný útlum",
+		"example": "9",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}, {
+		"lev": 2,
+		"name": "zesilovac",
+		"desc": "Typ (zóna) zesilovače",
+		"example": "S2",
+		"cardinality": "0..1",
+		"type": "PARAMETER"
+	}]
+}
