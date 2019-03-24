@@ -1,0 +1,101 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    width="234px" height="532px" viewBox="-0.5 -0.5 234 532"
+    style="background-color: rgb(255, 255, 255);">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-d5e8d4-1-97d077-1-s-0">
+            <stop offset="0%" style="stop-color:#d5e8d4"/>
+            <stop offset="100%" style="stop-color:#97d077"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-f8cecc-1-ea6b66-1-s-0">
+            <stop offset="0%" style="stop-color:#f8cecc"/>
+            <stop offset="100%" style="stop-color:#ea6b66"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <ellipse cx="33" cy="8" rx="8" ry="8" fill="url(#mx-gradient-d5e8d4-1-97d077-1-s-0)"
+            stroke="#000000" pointer-events="none"/>
+        <path d="M 33 16 L 33 53.76" fill="none" stroke="#000000" stroke-miterlimit="10"
+            pointer-events="none"/>
+        <path d="M 30.67 47.88 L 33 54.88 L 35.33 47.88" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 280 L 33 317.76" fill="none" stroke="#000000" stroke-miterlimit="10"
+            pointer-events="none"/>
+        <path d="M 30.67 311.88 L 33 318.88 L 35.33 311.88" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="33" cy="328" rx="4.8" ry="4.8" fill="url(#mx-gradient-d5e8d4-1-97d077-1-s-0)"
+            stroke="#000000" pointer-events="none"/>
+        <ellipse cx="33" cy="328" rx="8" ry="8" fill="none" stroke="#000000" pointer-events="none"/>
+        <path d="M 33 336 L 33 336" fill="none" stroke="#000000" stroke-width="2"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0.67 529.67 L 0.67 529.67" fill="none" stroke="#000000" stroke-width="2"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 248 L 49 264 L 33 280 L 17 264 Z" fill="#ffe6cc" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 56 L 49 72 L 33 88 L 17 72 Z" fill="#ffe6cc" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(26.5,67.5)">
+                <text x="6" y="8" fill="#000000" text-anchor="middle" font-size="8px"
+                    font-family="Helvetica" font-weight="bold">TR</text>
+        </g>
+        <rect x="81" y="120" width="95" height="32" rx="4.8" ry="4.8" fill="#fff2cc"
+            stroke="#000000" pointer-events="none"/>
+        <g transform="translate(90.5,122.5)">
+                <text x="38" y="17" fill="#000000" text-anchor="middle" font-size="8px"
+                    font-family="Helvetica" font-weight="bold"
+                    >
+                    <tspan x="38" y="7">NIMS</tspan>
+                    <tspan x="38" y="17">WO_removeService</tspan>
+                    <tspan x="38" y="27">(ADSL)</tspan>
+                </text>
+        </g>
+        <path d="M 129 184 L 145 200 L 129 216 L 113 200 Z" fill="#ffe6cc" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(119.5,195.5)">
+                <text x="9" y="8" fill="#000000" text-anchor="middle" font-size="8px"
+                    font-family="Helvetica" font-weight="bold">OK?</text>
+        </g>
+        <path d="M 128.5 152 L 128.97 181.76" fill="none" stroke="#000000" stroke-miterlimit="10"
+            pointer-events="none"/>
+        <path d="M 126.54 175.92 L 128.98 182.88 L 131.21 175.85" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="225" cy="200" rx="8" ry="8" fill="url(#mx-gradient-f8cecc-1-ea6b66-1-s-0)"
+            stroke="#000000" pointer-events="none"/>
+        <g transform="translate(221.5,195.5)">
+                <text x="3" y="8" fill="#000000" text-anchor="middle" font-size="8px"
+                    font-family="Helvetica" font-weight="bold">2</text>
+        </g>
+        <path d="M 145 200 L 214.76 200" fill="none" stroke="#000000" stroke-miterlimit="10"
+            pointer-events="none"/>
+        <path d="M 208.88 202.33 L 215.88 200 L 208.88 197.67" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(150.5,188.5)">
+                <text x="6" y="7" fill="#000000" text-anchor="middle" font-size="7px"
+                    font-family="Verdana" font-weight="bold">NE</text>
+        </g>
+        <path d="M 33 88 L 33 245.76" fill="none" stroke="#000000" stroke-miterlimit="10"
+            pointer-events="none"/>
+        <path d="M 30.67 239.88 L 33 246.88 L 35.33 239.88" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(35.5,88.5)">
+                <text x="9" y="7" fill="#000000" text-anchor="middle" font-size="7px"
+                    font-family="Verdana" font-weight="bold">BBm</text>
+        </g>
+        <path d="M 49 72 L 119 72 Q 129 72 128.9 82 L 128.52 117.76" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 126.25 111.86 L 128.51 118.88 L 130.92 111.91" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(48.5,60.5)">
+                <text x="9" y="7" fill="#000000" text-anchor="middle" font-size="7px"
+                    font-family="Verdana" font-weight="bold">PSm</text>
+        </g>
+        <path d="M 129 216 L 129 254 Q 129 264 119 264 L 51.24 264" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 57.12 261.67 L 50.12 264 L 57.12 266.33" fill="none" stroke="#000000"
+            stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(132.5,216.5)">
+                <text x="9" y="7" fill="#000000" text-anchor="middle" font-size="7px"
+                    font-family="Verdana" font-weight="bold">ANO</text>
+        </g>
+    </g>
+</svg>
