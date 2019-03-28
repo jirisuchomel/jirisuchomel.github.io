@@ -65,7 +65,7 @@
             pointer-events="none"/>
         <path d="M 133.67 175.88 L 136 182.88 L 138.33 175.88" fill="none" stroke="#000000"
             stroke-miterlimit="10" pointer-events="none"/>
-        <rect x="0" y="312" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0" stroke="#000000"
+        <rect id="NIMS.WO_routeService.RS1" x="0" y="312" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0" stroke="#000000"
             pointer-events="none"/>
         <g transform="translate(6.5,314.5)">
                 <text x="34" y="17" fill="#000000" text-anchor="middle" font-size="8px"
@@ -88,7 +88,7 @@
                 <text x="5" y="7" fill="#000000" text-anchor="middle" font-size="7px"
                     font-family="Verdana">NE</text>
         </g>
-        <rect x="96" y="504" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
+        <rect id="NIMS.GetObjectAttributes.Z+VR" x="96" y="504" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
             stroke="#000000" pointer-events="none"/>
         <g transform="translate(97.5,506.5)">
                 <text x="38" y="17" fill="#000000" text-anchor="middle" font-size="8px"
@@ -109,7 +109,7 @@
             pointer-events="none"/>
         <path d="M 133.67 559.88 L 136 566.88 L 138.33 559.88" fill="none" stroke="#000000"
             stroke-miterlimit="10" pointer-events="none"/>
-        <rect x="96" y="696" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
+        <rect id="NIMS.WO_routeService.RS2" x="96" y="696" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
             stroke="#000000" pointer-events="none"/>
         <g transform="translate(102.5,698.5)">
                 <text x="34" y="17" fill="#000000" text-anchor="middle" font-size="8px"
@@ -172,7 +172,7 @@
             pointer-events="none"/>
         <path d="M 229.67 815.88 L 232 822.88 L 234.33 815.88" fill="none" stroke="#000000"
             stroke-miterlimit="10" pointer-events="none"/>
-        <rect x="192" y="824" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
+        <rect id="NIMS.GetObjectAttributes.KPr" x="192" y="824" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
             stroke="#000000" pointer-events="none"/>
         <g transform="translate(193.5,826.5)">
                 <text x="38" y="17" fill="#000000" text-anchor="middle" font-size="8px"
@@ -252,7 +252,7 @@
         <ellipse cx="328" cy="1032" rx="4.8" ry="4.8" fill="url(#mx-gradient-d5e8d4-1-97d077-1-s-0)"
             stroke="#000000" pointer-events="none"/>
         <ellipse cx="328" cy="1032" rx="8" ry="8" fill="none" stroke="#000000" pointer-events="none"/>
-        <rect x="96" y="120" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
+        <rect id="NIMS.GetObjectAttributes.caseId+Z+VR" x="96" y="120" width="80" height="32" rx="4.8" ry="4.8" fill="#ffffc0"
             stroke="#000000" pointer-events="none"/>
         <g transform="translate(97.5,122.5)">
                 <text x="38" y="17" fill="#000000" text-anchor="middle" font-size="8px"
