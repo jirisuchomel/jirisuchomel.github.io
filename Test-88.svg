@@ -38,7 +38,7 @@
                 <text x="6" y="8" fill="#000000" text-anchor="middle" font-size="8px"
                     font-family="Helvetica" font-weight="bold">TR</text>
         </g>
-        <rect x="81" y="120" width="95" height="32" rx="4.8" ry="4.8" fill="#fff2cc"
+        <rect id="NIMS.WO_removeService.ADSL" x="81" y="120" width="95" height="32" rx="4.8" ry="4.8" fill="#fff2cc"
             stroke="#000000" pointer-events="none"/>
         <g transform="translate(90.5,122.5)">
                 <text x="38" y="17" fill="#000000" text-anchor="middle" font-size="8px"
